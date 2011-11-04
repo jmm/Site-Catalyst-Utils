@@ -1,0 +1,6 @@
+Omniture SiteCatalyst deployment utilities.  Server-side preprocessing of SiteCatalyst variable values and generation of SiteCatalyst JavaScript code.
+
+Some software I wrote when I had to deploy SiteCatalyst.  Planned to polish it up and release it at some point.  Didn't end up having time to polish it, so I'm just releasing it in case any of it is useful to anyone else.  Take get_event_serial_id() for example -- I'm not sure just how good of an implementation it is for this purpose, but they didn't provide a reference implementation or anything, and I couldn't find an example at the time, so, here's *an* implementation.
+
+See example.php for example usage.
+
